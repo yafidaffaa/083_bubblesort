@@ -58,10 +58,11 @@ void display() {                                            // Procedur untuk me
     cout << endl;                                           // Output baris kosong
 }
 
+int main(){
+    input();                // Memanggil procedur input()
+    unsorted();             // Memanggil procedur unsort()
+    bubbleSortArray();      // Memanggil procedur bubbleSortArray()
+    display();              // Memanggil procedur display()
 
-int main()
-{
-    std::cout << "Hello World!\n";
+    return 0;
 }
-
-
